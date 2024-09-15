@@ -1,4 +1,4 @@
-### Overview
+# Overview
 
 This project integrates a Java backend, a Scala backend, and a modern frontend using PostgreSQL. It demonstrates data fetching from both backend services and displays the results in a user-friendly web interface.
 
@@ -25,7 +25,7 @@ The frontend is a simple web interface that uses HTML, CSS, and JavaScript to in
 - Styling: Bootstrap 4, custom CSS
 - Functionality: Fetches and displays data from Java and Scala backends
 
-### Setup
+# Setup
 
 ## Prerequisites
 
@@ -39,21 +39,29 @@ The frontend is a simple web interface that uses HTML, CSS, and JavaScript to in
 
 1. Navigate to the backend directory:
 
-- cd backend
+```
+cd backend
+```
 
 2. Run the application
 
-- mvn spring-boot:run
+```
+mvn spring-boot:run
+```
 
 ## Running the Scala Backend
 
 1. Navigate to the backend directory:
 
-- cd scala
+```
+cd scala
+```
 
 2. Run the application
 
-- sbt run
+```
+sbt run
+```
 
 ## Setting Up the Database
 
@@ -62,4 +70,4 @@ The frontend is a simple web interface that uses HTML, CSS, and JavaScript to in
 
 ## Running the Frontend
 
-1 Open frontend/index.html in your web browser.
+1. Open frontend/index.html in your web browser.
